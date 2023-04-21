@@ -20,5 +20,8 @@ public class deneme {
 
         int sum = (mat+fizik+kimya+tur+tar+muz+tc) / 7;
         System.out.println(sum);
+
+        String result = (sum > 60) ? "Sınıfı Geçti" : "Sınıfta Kaldı";
+        System.out.println(result);
     }
 }
