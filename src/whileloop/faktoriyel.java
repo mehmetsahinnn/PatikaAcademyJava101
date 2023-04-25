@@ -28,8 +28,6 @@ public class faktoriyel {
             result_n_r *= difference;
             difference--;
         }
-
         System.out.println(result_n/(result_r*result_n_r));
-
     }
 }
