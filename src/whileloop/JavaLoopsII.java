@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class JavaLoopsII {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int t = in.nextInt();
-        for (int i = 0; i < t; i++) {
+        int stepSize = in.nextInt();
+        for (int i = 0; i < stepSize; i++) {
             System.out.print("Enter a , b , n : ");
             int a = in.nextInt();
             int b = in.nextInt();
