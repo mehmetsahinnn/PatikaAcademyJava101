@@ -12,7 +12,8 @@ public class Duplicate {
         System.out.print("Duplicates are : ");
         for (int i = 1; i < list.length; i++) {
             if (list[i-1] == list[i]) {
-                System.out.print(list[i]+" ");
+                if (list[i-1]%2==0)
+                    System.out.print(list[i]+" ");
             }
         }
     }
